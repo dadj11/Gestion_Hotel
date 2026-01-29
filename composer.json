@@ -1,0 +1,20 @@
+{
+    "name": "godwin/hotel",
+    "description": "gestion_hotel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/",
+            "Godwin\\Hotel\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Dadja"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
