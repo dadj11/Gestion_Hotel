@@ -1,5 +1,5 @@
 
-    <div><h2> Reservations</h2>  <a href="reservation/form"><button>New Reservation</button></a></div>
+    <div><h2><i class="fa-solid fa-book-open-reader" style="font-size: 40px"></i>  Reservations</h2>  <a href="reservation/form"><button>New Reservation</button></a></div>
     <table style="border-collapse: collapse; width: 100%; border-radius: 15px; border: 1px solid #ccc; margin-top: 20px;">
         <thead style="background-color: #f2f2f2; border-radius: 15px;">
             <tr >

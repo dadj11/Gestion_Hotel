@@ -7,6 +7,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
   <header style="
@@ -22,7 +24,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
     <!-- Logo / titre -->
     <div style="min-width: 200px;">
-        <h1 style="margin: 0; font-size: 24px;">Hotel</h1>
+        <h1 style="margin: 0; font-size: 24px;"> <i class="fa-solid fa-hotel" style="font-size: 40px"></i>  Hotel</h1>
         <p style="margin: 5px 0 0; font-size: 14px;">Bienvenue sur votre site web d'hôtel !</p>
     </div>
 
