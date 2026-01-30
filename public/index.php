@@ -8,6 +8,60 @@ require_once __DIR__ . '/../vendor/autoload.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <style>
+    /* Police globale */
+    * {
+        font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-size: 16px;
+        color: #111827;
+        background-color: #f9fafb;
+    }
+
+    /* Titres */
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #111827;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1f2937;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #374151;
+    }
+
+    /* Texte normal */
+    p, span, div {
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #4b5563;
+    }
+
+    /* Chiffres / stats */
+    .stat-number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #111827;
+    }
+
+    /* Texte secondaire */
+    .text-muted {
+        font-size: 0.85rem;
+        color: #9ca3af;
+    }
+</style>
 
 </head>
 <body>
