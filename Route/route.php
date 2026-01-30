@@ -11,7 +11,17 @@ $router= new AltoRouter();
  });
 $router->map("GET","/chambres" ,function(){
     global $Chambre;
-    $Chambre->chambre();
+    $Chambre->index();
+       // require_once __DIR__ . "/../Views/chambres.php";
+    });
+    $router->map("GET","/chambres/createForm" ,function(){
+    global $Chambre;
+    $Chambre->createform();
+       
+    });
+    $router->map("GET","/chambres" ,function(){
+    global $Chambre;
+    $Chambre->index();
        // require_once __DIR__ . "/../Views/chambres.php";
     });
 $router->map("GET","/reservation" ,function(){
@@ -28,8 +38,9 @@ $router->map("GET",'/reservation/form',function(){
 
 
 $router->map("GET","/historique" ,function(){
-    echo "Historique";
+   require_once __DIR__ . "/../Views/Historique.php";
 });
+
 $matching = $router->match();
 if($matching && is_callable($matching['target'])){
     call_user_func_array($matching['target'], $matching['params']);

@@ -104,7 +104,7 @@
     "
     onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.25)'"
     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'">
-    <h4>Reservation statat</h4>
+    <h4> <i class="fa-solid fa-chart-line"></i> Reservation statat</h4>
    </div>
    <div style="
         background: #fff;
@@ -123,7 +123,7 @@
     "
     onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.25)'"
     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'">
-    <h4> Revenue</h4>
+    <h4> <i class="fa-solid fa-chart-simple"></i> Revenue</h4>
    </div>
 
 
