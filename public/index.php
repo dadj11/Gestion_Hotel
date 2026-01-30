@@ -14,7 +14,13 @@ require_once __DIR__ . '/../vendor/autoload.php';
         font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
         box-sizing: border-box;
     }
+    input:focus+label{
+        transform: translateY(-20px)
 
+    }
+    input:focus{
+        outline-color:#1f2937;
+    }
     body {
         margin: 0;
         font-size: 16px;
