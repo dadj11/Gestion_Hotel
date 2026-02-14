@@ -5,7 +5,8 @@ use App\Controllers\ChambreController;
 $resevationController = new ReservationController();
 $Chambre=new ChambreController();
 $router= new AltoRouter();
- $router->map("GET","/" ,function(){
+
+$router->map("GET","/" ,function(){
     
     require_once __DIR__ . "/../Views/dashboard.php";
  });
