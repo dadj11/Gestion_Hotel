@@ -27,13 +27,13 @@ $router->map("GET","/chambres" ,function(){
     });
 $router->map("GET","/reservation" ,function(){
     global $resevationController;
-    $resevationController->reservation();
+    $resevationController->index();
     
 });
 
 $router->map("GET",'/reservation/form',function(){
     global $resevationController;
-    $resevationController->reservationForm();
+    $resevationController->createform();
 }
 );
 

@@ -1,8 +1,9 @@
 <?php 
 namespace App\Models;
 
-class Client extends Model{
-    public static function  All(){
+class Model{
+
+public static function  All(){
 
 }
 
@@ -17,9 +18,7 @@ public static function delete(int $id){
 
 }
 public static function update (array $data){
+    
 }
-
-
-
 
 }

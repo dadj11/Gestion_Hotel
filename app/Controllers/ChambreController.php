@@ -11,6 +11,13 @@ class ChambreController extends Controller implements Resource{
     public function storaction(){
 
     }
+
+     public function update(){
+        
+     }
+    public function updateAction(){
+
+    }
     public function show(){
 
     }
