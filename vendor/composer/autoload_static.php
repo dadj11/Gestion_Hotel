@@ -11,6 +11,10 @@ class ComposerStaticInit6097f94a8a5c58494ebf97e3420d9b68
         array (
             'Godwin\\Hotel\\' => 13,
         ),
+        'D' => 
+        array (
+            'Database\\' => 9,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -21,6 +25,10 @@ class ComposerStaticInit6097f94a8a5c58494ebf97e3420d9b68
         'Godwin\\Hotel\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Database\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/database',
         ),
         'App\\' => 
         array (

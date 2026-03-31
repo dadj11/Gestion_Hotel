@@ -1,9 +1,15 @@
 <?php 
 namespace App\Controllers;
+use App\Models\Chambre;
 class ChambreController extends Controller implements Resource{
     
      public function index(){
-          $this->render("/chambre/index.php");
+        $chambre= Chambre::All();
+        if ($chambre == false){
+            $chambres=[];
+        };
+
+          $this->render("/chambre/index.php",["chambre"=> $chambre]);
      }
     public function createform(){
         $this->render("/chambre/create.php");
